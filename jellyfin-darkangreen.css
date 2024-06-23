@@ -211,7 +211,7 @@ select.emby-select-withcolor:focus {
 
 input:focus input[type=checkbox]:focus {
     color: #005012 !important;
-    background-color: rgba(rgba(0, 80, 19, 0.8, 0) !important;
+    background-color: rgba(rgba(0, 80, 19, 0) !important;
 }
 
 :root {
