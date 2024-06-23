@@ -21,7 +21,7 @@ a.navMenuOption-selected { background: #d2d200 !important; }
 .iconOsdProgressInner { background: #d2d200 !important; }
 .card { cursor: unset !important; }
 .cardOverlayContainer { cursor: pointer !important };
-.mdl-switch:focus, .mdl-switch__input:focus, .noautofocus:focus { outline: rgba(0, 80, 18, 1) auto 1px !important; };
+.mdl-switch:focus, .mdl-switch__input:focus, .noautofocus:focus { outline: rgba(210, 210, 0, 1) auto 1px !important; };
 
 
 div[data-role=controlgroup] a.ui-btn-active {
@@ -40,9 +40,9 @@ html {
 }
 
 .dialog {border-radius: 6px !important; background-color: rgba(0, 0, 0, 0.9);}
-.actionSheetMenuItem:hover {background-color: rgba(0, 80, 18, 1);}
+.actionSheetMenuItem:hover {background-color: rgba(210, 210, 0, 1);}
 .mainDrawer {background-color: rgba(0, 0, 0, 0.9);}
-.navMenuOption:hover {background: rgba(0, 80, 18, 1);}
+.navMenuOption:hover {background: rgba(210, 210, 0, 1);}
 
 ::-webkit-scrollbar-track-piece {
     background-color: #272727 !important;
@@ -191,18 +191,18 @@ select.emby-select-withcolor:focus {
 }
 
 .mdl-switch__input:checked:focus + .mdl-switch__label + .mdl-switch__trackContainer .mdl-switch__focus-helper {
-    box-shadow: 0 0 0 1.39em rgba(0, 80, 18, 1);
-    background-color: rgba(0, 80, 18, 1) !important;
+    box-shadow: 0 0 0 1.39em rgba(210, 210, 0, 1);
+    background-color: rgba(210, 210, 0, 1) !important;
 }
 
 .mdl-switch__input:checked + .mdl-switch__label + .mdl-switch__trackContainer > .mdl-switch__track {
-    background: rgba(0, 80, 18, 1) !important;
+    background: rgba(210, 210, 0, 1) !important;
 }
 
 .paper-icon-button-light:focus,rgba
 .paper-icon-button-light:hover:not(:disabled) {
     color: #d2d200 !important;
-    background-color: rgba(0, 80, 18, 1) !important;
+    background-color: rgba(210, 210, 0, 1) !important;
 }
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred .paper-icon-button-light:hover:not(:disabled) {
     color: #d2d200 !important;
@@ -211,7 +211,7 @@ select.emby-select-withcolor:focus {
 
 input:focus input[type=checkbox]:focus {
     color: #d2d200 !important;
-    background-color: rgba(0, 80, 18, 1) !important;
+    background-color: rgba(210, 210, 0, 1) !important;
 }
 
 :root {
@@ -233,7 +233,7 @@ input:focus input[type=checkbox]:focus {
 }
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred .paper-icon-button-light:hover:not(:disabled) {
     color: #d2d200 !important;
-    background-color: rgba(0, 80, 18, 1) !important;
+    background-color: rgba(210, 210, 0, 1) !important;
 }
 .emby-checkbox:checked, .checkboxOutline, .checkboxIcon-checked {
 	color: #429101 !important;
