@@ -12,7 +12,7 @@ CSS Jellyfin heme Name: Dark and Green
 .skinHeader-withBackground { background-color: #d3d300 !important; }
 .navMenuOption-selected { background: #d3d300 !important; }
 a.navMenuOption-selected { background: #d3d300 !important; }
-.button-submit { background: #d3d300 !important; }
+.button-submit { background: #7c7c00 !important; }
 .button-link { color: #d3d300 !important; }
 .listItemIcon:not(.listItemIcon-transparent) { background-color: #d3d300 !important; }
 .emby-checkbox:checked+span+span+.checkboxOutline, .itemProgressBarForeground { background-color: #d3d300 !important; }
@@ -55,12 +55,12 @@ html {
 }
 
 .repeatButton-active {
-    color: #d3d300 !important;
+    color: #7c7c00 !important;
 }
 
 .downloadbutton-icon-complete,
 .downloadbutton-icon-on {
-    color: #d3d300 !important;
+    color: #7c7c00 !important;
 }
 
 .programCell-kids {
@@ -83,7 +83,7 @@ html {
     color: #d3d300 !important;
 }
 .button-submit {
-    background: #d3d300 !important;
+    background: #7c7c00 !important;
 }
 
 .button-submit:focus {
@@ -118,7 +118,7 @@ html {
 .button-flat:hover,
 .button-flat-accent,
 .button-link {
-    color: #d3d300 !important;
+    color: #7c7c00 !important;
 }
 
 .emby-input:focus,
