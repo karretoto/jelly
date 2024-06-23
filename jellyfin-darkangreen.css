@@ -2,30 +2,30 @@
 CSS Jellyfin heme Name: Dark and Green
 */
 
-.mdl-slider { color: #C0D000; }
-.mdl-slider::-webkit-slider-thumb { color: #C0D000; }
-.mdl-slider::-ms-thumb { background: #C0D000; }
-.mdl-slider::-webkit-slider-thumb { background: #C0D000; }
-.mdl-slider::-moz-range-thumb { background: #C0D000; }
-.mdl-slider-background-lower { color: #C0D000; background-color: #C0D000; }
-.mdl-slider::-moz-range-progress { color: #C0D000; }
-.skinHeader-withBackground { background-color: #C0D000 !important; }
-.navMenuOption-selected { background: #C0D000 !important; }
-a.navMenuOption-selected { background: #C0D000 !important; }
-.button-submit { background: #C0D000 !important; }
-.button-link { color: #C0D000 !important; }
-.listItemIcon:not(.listItemIcon-transparent) { background-color: #C0D000 !important; }
-.emby-checkbox:checked+span+span+.checkboxOutline, .itemProgressBarForeground { background-color: #C0D000 !important; }
-.emby-checkbox:checked+span+span+.checkboxOutline { border-color: #C0D000 !important; }
-.inputLabelFocused, .selectLabelFocused, .textareaLabelFocused { color: #C0D000; }
-.iconOsdProgressInner { background: #C0D000 !important; }
+.mdl-slider { color: #D2DC00; }
+.mdl-slider::-webkit-slider-thumb { color: #D2DC00; }
+.mdl-slider::-ms-thumb { background: #D2DC00; }
+.mdl-slider::-webkit-slider-thumb { background: #D2DC00; }
+.mdl-slider::-moz-range-thumb { background: #D2DC00; }
+.mdl-slider-background-lower { color: #D2DC00; background-color: #D2DC00; }
+.mdl-slider::-moz-range-progress { color: #D2DC00; }
+.skinHeader-withBackground { background-color: #D2DC00 !important; }
+.navMenuOption-selected { background: #D2DC00 !important; }
+a.navMenuOption-selected { background: #D2DC00 !important; }
+.button-submit { background: #D2DC00 !important; }
+.button-link { color: #D2DC00 !important; }
+.listItemIcon:not(.listItemIcon-transparent) { background-color: #D2DC00 !important; }
+.emby-checkbox:checked+span+span+.checkboxOutline, .itemProgressBarForeground { background-color: #D2DC00 !important; }
+.emby-checkbox:checked+span+span+.checkboxOutline { border-color: #D2DC00 !important; }
+.inputLabelFocused, .selectLabelFocused, .textareaLabelFocused { color: #D2DC00; }
+.iconOsdProgressInner { background: #D2DC00 !important; }
 .card { cursor: unset !important; }
 .cardOverlayContainer { cursor: pointer !important };
-.mdl-switch:focus, .mdl-switch__input:focus, .noautofocus:focus { outline: rgba(120, 130, 45, 0.5) auto 1px !important; };
+.mdl-switch:focus, .mdl-switch__input:focus, .noautofocus:focus { outline: rgba(210, 220, 0, 0.5) auto 1px !important; };
 
 
 div[data-role=controlgroup] a.ui-btn-active {
-    background: #C0D000 !important;
+    background: #D2DC00 !important;
 }
 
 
@@ -40,9 +40,9 @@ html {
 }
 
 .dialog {border-radius: 6px !important; background-color: rgba(0, 0, 0, 0.9);}
-.actionSheetMenuItem:hover {background-color: rgba(120, 130, 45, 0.5);}
+.actionSheetMenuItem:hover {background-color: rgba(210, 220, 0, 0.5);}
 .mainDrawer {background-color: rgba(0, 0, 0, 0.9);}
-.navMenuOption:hover {background: rgba(120, 130, 45, 0.5);}
+.navMenuOption:hover {background: rgba(210, 220, 0, 0.5);}
 
 ::-webkit-scrollbar-track-piece {
     background-color: #272727 !important;
@@ -55,12 +55,12 @@ html {
 }
 
 .repeatButton-active {
-    color: #C0D000 !important;
+    color: #D2DC00 !important;
 }
 
 .downloadbutton-icon-complete,
 .downloadbutton-icon-on {
-    color: #C0D000 !important;
+    color: #D2DC00 !important;
 }
 
 .programCell-kids {
@@ -74,75 +74,75 @@ html {
 .wizardStartForm,
 .ui-corner-all,
 .ui-shadow {
-  background-color: #C0D000 !important;
+  background-color: #D2DC00 !important;
 }
 .skinHeader-withBackground {
-    background-color: #C0D000 !important;
+    background-color: #D2DC00 !important;
 }
 .paper-icon-button-light:focus {
-    color: #C0D000 !important;
+    color: #D2DC00 !important;
 }
 .button-submit {
-    background: #C0D000 !important;
+    background: #D2DC00 !important;
 }
 
 .button-submit:focus {
-    background: #C0D000
+    background: #D2DC00
 }
 
 .inputLabelFocused,
 .selectLabelFocused,
 .textareaLabelFocused {
-    color: #C0D000 !important;
+    color: #D2DC00 !important;
 }
 
 .itemSelectionPanel {
-    border: 1px solid #C0D000 !important;
+    border: 1px solid #D2DC00 !important;
 }
 
 .selectionCommandsPanel {
-    background: #C0D000 !important;
+    background: #D2DC00 !important;
 }
 
 .upNextDialog-countdownText {
-    color: #C0D000 !important;
+    color: #D2DC00 !important;
 }
 
 .alphaPickerButton-tv:focus {
-    background-color: #C0D000 !important;
+    background-color: #D2DC00 !important;
 }
 .progressring-spiner {
-    border-color: #C0D000 !important;
+    border-color: #D2DC00 !important;
 }
 
 .button-flat:hover,
 .button-flat-accent,
 .button-link {
-    color: #C0D000 !important;
+    color: #D2DC00 !important;
 }
 
 .emby-input:focus,
 .emby-textarea:focus {
-    border-color: #C0D000 !important;
+    border-color: #D2DC00 !important;
 }
 .emby-select-withcolor:focus {
-    border-color: #C0D000 !important
+    border-color: #D2DC00 !important
 }
 
 select.emby-select-withcolor:focus {
-    border-color: #C0D000 !important
+    border-color: #D2DC00 !important
 }
 
 .emby-select-tv-withcolor:focus {
-    background-color: #C0D000 !important;
+    background-color: #D2DC00 !important;
 }
 
 .emby-checkbox:checked+span+span+.checkboxOutline {
-    border-color: #C0D000 !important;
+    border-color: #D2DC00 !important;
 }
 .emby-checkbox:checked+span+span+.checkboxOutline,
 .itemProgressBarForeground {
-    background-color: #C0D000 !important;
+    background-color: #D2DC00 !important;
 }
 .countIndicator,
 .playedIndicator {
@@ -150,75 +150,75 @@ select.emby-select-withcolor:focus {
 }
 
 .fullSyncIndicator {
-    background: #C0D000 !important;
+    background: #D2DC00 !important;
 }
 
 .navMenuOption-selected {
-    background: #C0D000 !important;
+    background: #D2DC00 !important;
 }
 
 .emby-button-focusscale:focus {
-    background: #C0D000 !important;
+    background: #D2DC00 !important;
 }
 .guide-channelHeaderCell:focus,
 .programCell:focus {
-    background-color: #C0D000 !important;
+    background-color: #D2DC00 !important;
 }
 
 .guide-date-tab-button.emby-tab-button-active,
 .guide-date-tab-button:focus {
-    color: #C0D000 !important;
+    color: #D2DC00 !important;
 }
 
 .guide-date-tab-button.emby-button-tv:focus {
-    background-color: #C0D000 !important;
+    background-color: #D2DC00 !important;
 }
 
 .ratingbutton-icon-withrating {
-    color: #C0D000 !important;
+    color: #D2DC00 !important;
 }
 
 .playstatebutton-icon-played {
-    color: #C0D000 !important;
+    color: #D2DC00 !important;
 }
 
 .card:focus .card-focuscontent {
-    border-color: #C0D000 !important;
+    border-color: #D2DC00 !important;
 }
 
 .mdl-switch__input:checked + .mdl-switch__label + .mdl-switch__trackContainer > .mdl-switch__thumb {
-    background: #C0D000 !important;
+    background: #D2DC00 !important;
 }
 
 .mdl-switch__input:checked:focus + .mdl-switch__label + .mdl-switch__trackContainer .mdl-switch__focus-helper {
     box-shadow: 0 0 0 1.39em rgba(49, 102, 54, 0.26);
-    background-color: rgba(120, 130, 45, 0.5) !important;
+    background-color: rgba(210, 220, 0, 0.5) !important;
 }
 
 .mdl-switch__input:checked + .mdl-switch__label + .mdl-switch__trackContainer > .mdl-switch__track {
-    background: rgba(120, 130, 45, 0.5) !important;
+    background: rgba(210, 220, 0, 0.5) !important;
 }
 
-.paper-icon-button-light:focus,
+.paper-icon-button-light:focus,rgba
 .paper-icon-button-light:hover:not(:disabled) {
-    color: #C0D000 !important;
-    background-color: rgba(120, 130, 45, 0.2) !important;
+    color: #D2DC00 !important;
+    background-color: rgba(210, 220, 0, 0.2) !important;
 }
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred .paper-icon-button-light:hover:not(:disabled) {
-    color: #C0D000 !important;
+    color: #D2DC00 !important;
     background-color: rgba(255, 255, 255, 0.7) !important;
 }
 
 input:focus input[type=checkbox]:focus {
-    color: #C0D000 !important;
-    background-color: rgba(120, 130, 45, 0) !important;
+    color: #D2DC00 !important;
+    background-color: rgba(210, 220, 0, 0) !important;
 }
 
 :root {
-    --swiper-theme-color: #C0D000 !important;
+    --swiper-theme-color: #D2DC00 !important;
 }
 .buttonActive {
-    color: #C0D000 !important;
+    color: #D2DC00 !important;
 }
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
     background: none !important; 
@@ -229,11 +229,11 @@ input:focus input[type=checkbox]:focus {
     background-color: rgba(40, 40, 40, 0.9) !important;
 }
 .emby-tab-button.show-focus:focus,.emby-tab-button:hover {
-    color: #C0D000 !important;
+    color: #D2DC00 !important;
 }
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred .paper-icon-button-light:hover:not(:disabled) {
-    color: #C0D000 !important;
-    background-color: rgba(120, 130, 45, 0.2) !important;
+    color: #D2DC00 !important;
+    background-color: rgba(210, 220, 0, 0.2) !important;
 }
 .emby-checkbox:checked, .checkboxOutline, .checkboxIcon-checked {
 	color: #429101 !important;
