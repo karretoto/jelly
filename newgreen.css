@@ -248,7 +248,7 @@ input:focus input[type=checkbox]:focus {
   background-color: rgba(0, 0, 0, 0);
   background-image: url('https://karretoto.github.io/jelly/cinema.jpg');
   background-position: center center;
-  filter: blur(10px);
+  filter: blur(5px);
   background-size: cover;
 }
 .headerRight {
