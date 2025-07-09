@@ -243,3 +243,6 @@ input:focus input[type=checkbox]:focus {
 .backdropImage {
   display: none;
 }
+.pageTitleWithDefaultLogo {
+    background-image: url(../../assets/img/banner-light.png);
+}
