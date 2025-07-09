@@ -247,6 +247,7 @@ input:focus input[type=checkbox]:focus {
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
   background-image: url('https://karretoto.github.io/jelly/iphone.jpg');
+  background-position: center center;
   filter: blur(10px);
   background-size: cover;
 }
