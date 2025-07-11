@@ -12,7 +12,7 @@
                 "version": "1.2.0.0",
                 "changelog": "Adds options to exclude played items, and configure the height of the slider.",
                 "targetAbi": "10.10.6.0",
-                "sourceUrl": "https://github.com/karretoto/jelly/blob/main/jellyfin-editors-choice-plugin-main.zip",
+                "sourceUrl": "https://raw.githubusercontent.com/karretoto/jelly/refs/heads/main/manifest.json",
                 "timestamp": "2025-06-29 12:34:45"
             }
         ]
