@@ -39,7 +39,7 @@ html {
     background-color: #171717 !important;
 }
 
-.dialog {border-radius: 15px !important; background-color: rgba(0, 0, 0, 0.9);}
+.dialog {border-radius: 25px !important; background-color: rgba(0, 0, 0, 0.9);}
 .actionSheetMenuItem:hover {background-color: rgba(18, 100, 0, 0.5);}
 .mainDrawer {background-color: rgba(0, 0, 0, 0.9);}
 .navMenuOption:hover {background: rgba(18, 100, 0, 0.5);}
@@ -50,7 +50,7 @@ html {
 
 ::-webkit-scrollbar-thumb:horizontal,
 ::-webkit-scrollbar-thumb:vertical {
-    -webkit-border-radius: 8px;
+    -webkit-border-radius: 15px;
     background: center no-repeat #404040 !important;
 }
 
@@ -97,7 +97,7 @@ html {
 }
 
 .itemSelectionPanel {
-    border: 4px solid #126400 !important;
+    border: 15px solid #126400 !important;
 }
 
 .selectionCommandsPanel {
