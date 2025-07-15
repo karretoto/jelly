@@ -39,7 +39,7 @@ html {
     background-color: #171717 !important;
 }
 
-.dialog {border-radius: 25px !important; background-color: rgba(0, 0, 0, 0.9);}
+.dialog {border-radius: 6px !important; background-color: rgba(0, 0, 0, 0.9);}
 .actionSheetMenuItem:hover {background-color: rgba(18, 100, 0, 0.5);}
 .mainDrawer {background-color: rgba(0, 0, 0, 0.9);}
 .navMenuOption:hover {background: rgba(18, 100, 0, 0.5);}
@@ -50,7 +50,7 @@ html {
 
 ::-webkit-scrollbar-thumb:horizontal,
 ::-webkit-scrollbar-thumb:vertical {
-    -webkit-border-radius: 15px;
+    -webkit-border-radius: 2px;
     background: center no-repeat #404040 !important;
 }
 
@@ -97,7 +97,7 @@ html {
 }
 
 .itemSelectionPanel {
-    border: 15px solid #126400 !important;
+    border: 1px solid #126400 !important;
 }
 
 .selectionCommandsPanel {
@@ -239,10 +239,4 @@ input:focus input[type=checkbox]:focus {
 	color: #429101 !important;
 	background-color: rgba(41, 41, 41, 1) !important;
 	border-color: rgba(150, 150, 150, 1) !important;
-}
-.backdropImage {
-  display: none;
-}
-.pageTitleWithDefaultLogo {
-    background-image: url(https://karretoto.github.io/jelly/logo.png);
 }
