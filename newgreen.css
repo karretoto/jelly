@@ -246,3 +246,6 @@ input:focus input[type=checkbox]:focus {
 .pageTitleWithDefaultLogo {
     background-image: url(https://karretoto.github.io/jelly/logo.png);
 }
+.button-class {
+     border-radius: 50%; /* Or a large pixel value like 1000px */
+   }
