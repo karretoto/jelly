@@ -12,7 +12,7 @@
 @import url("https://karretoto.github.io/jelly/karre/jellyfin-theme-best/jellyfin-theme-dashboard.css");
 @import url("https://karretoto.github.io/jelly/karre/jellyfin-theme-best/jellyfin-theme-misc.css");
 :root {--accent: 18, 100, 0 ;}
-:root {--rounding: 12px ;}
+:root {--rounding: 8px ;}
 :root {--rounding-input: 4px ;}
 :root {--headeropacity: 0.7 ;}
 :root {--bgopacity: 0.4 ;}
