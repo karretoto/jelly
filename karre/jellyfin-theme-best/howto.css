@@ -1,16 +1,16 @@
 /* Add to Custom CSS in Dashboard */
-@import url('https://github.com/karretoto/jelly/tree/main/karre/jellyfin-theme-best/jellyfin-theme-base');
-@import url('https://buesche87.github.io/jellyfin-theme-buesche/jellyfin-theme-buesche-accent.css');
-@import url('https://buesche87.github.io/jellyfin-theme-buesche/jellyfin-theme-buesche-roundings.css');
-@import url('https://buesche87.github.io/jellyfin-theme-buesche/jellyfin-theme-buesche-login.css');
-@import url('https://buesche87.github.io/jellyfin-theme-buesche/jellyfin-theme-buesche-lists.css');
-@import url('https://buesche87.github.io/jellyfin-theme-buesche/jellyfin-theme-buesche-media.css');
-@import url('https://buesche87.github.io/jellyfin-theme-buesche/jellyfin-theme-buesche-episodes.css');
-@import url('https://buesche87.github.io/jellyfin-theme-buesche/jellyfin-theme-buesche-player.css');
-@import url('https://buesche87.github.io/jellyfin-theme-buesche/jellyfin-theme-buesche-cast.css');
-@import url('https://buesche87.github.io/jellyfin-theme-buesche/jellyfin-theme-buesche-usersettings.css');
-@import url('https://buesche87.github.io/jellyfin-theme-buesche/jellyfin-theme-buesche-dashboard.css');
-@import url('https://buesche87.github.io/jellyfin-theme-buesche/jellyfin-theme-buesche-misc.css');
+@import url('https://github.com/karretoto/jelly/tree/main/karre/jellyfin-theme-best/jellyfin-theme-base.css');
+@import url('https://github.com/karretoto/jelly/tree/main/karre/jellyfin-theme-best/jellyfin-theme-accent.css');
+@import url('https://github.com/karretoto/jelly/tree/main/karre/jellyfin-theme-best/jellyfin-theme-roundings.css');
+@import url('https://github.com/karretoto/jelly/tree/main/karre/jellyfin-theme-best/jellyfin-theme-login.css');
+@import url('https://github.com/karretoto/jelly/tree/main/karre/jellyfin-theme-best/jellyfin-theme-lists.css');
+@import url('https://github.com/karretoto/jelly/tree/main/karre/jellyfin-theme-best/jellyfin-theme-media.css');
+@import url('https://github.com/karretoto/jelly/tree/main/karre/jellyfin-theme-best/jellyfin-theme-episodes.css');
+@import url('https://github.com/karretoto/jelly/tree/main/karre/jellyfin-theme-best/jellyfin-theme-player.css');
+@import url('https://github.com/karretoto/jelly/tree/main/karre/jellyfin-theme-best/jellyfin-theme-cast.css');
+@import url('https://github.com/karretoto/jelly/tree/main/karre/jellyfin-theme-best/jellyfin-theme-usersettings.css');
+@import url('https://github.com/karretoto/jelly/tree/main/karre/jellyfin-theme-best/jellyfin-theme-dashboard.css');
+@import url('https://github.com/karretoto/jelly/tree/main/karre/jellyfin-theme-best/jellyfin-theme-misc.css');
 :root {--accent: 18, 100, 0 ;}
 :root {--rounding: 12px ;}
 :root {--rounding-input: 4px ;}
