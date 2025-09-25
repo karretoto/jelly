@@ -51,7 +51,7 @@ html {
 ::-webkit-scrollbar-thumb:horizontal,
 ::-webkit-scrollbar-thumb:vertical {
     -webkit-border-radius: 32px;
-    background: center no-repeat #1c1c1c !important;
+    background: center no-repeat #404040 !important;
 }
 
 .repeatButton-active {
