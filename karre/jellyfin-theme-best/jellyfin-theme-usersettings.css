@@ -1,0 +1,41 @@
+/*  
+  ==================================
+  User settings
+  ==================================
+
+  finny - HTPC Theme for Jellyin
+  Based on: Ultrachromic/login/login_frame.css
+
+*/
+
+/* Improve some menu alignments */
+.navMenuOptionText {
+  margin-top: 0;
+}
+.formDialogHeaderTitle {
+  margin-left: 1em;
+}
+.formDialogContent {
+  margin-bottom: 6.2em;
+}
+.dialogContentInner {
+  padding: .5em 1em 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+.listItem-indexnumberleft {
+  margin: 1em;
+}
+.listItem {
+  padding-left: 1em;
+}
+
+/* Remove background on some icons */
+.listItemIcon {
+  background: #0000 !important;
+}
+
+/* Remove divider on list items */
+.listItem-border {
+  border-color: #0000 !important; 
+}

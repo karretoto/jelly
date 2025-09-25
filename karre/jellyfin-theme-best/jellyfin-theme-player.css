@@ -1,0 +1,105 @@
+/*  
+  ==================================
+  Player & Osd
+  ==================================
+
+  finny - HTPC Theme for Jellyin
+  Based on: Ultrachromic/progress/floating.css
+
+*/
+
+/*
+| Vdeo OSD 
+-------------------------------*/
+
+/* Hide some Elements on OSD */
+.btnFullscreen,
+.btnPip {
+  display: none;
+}
+
+/* Zoom OSD Buttons on Focus */
+.autoSize.paper-icon-button-light:not(.headerButton):focus {
+  border: solid 1px rgba(var(--accent), 0.6) !important;
+  -webkit-transform: scale(1.2) !important;
+  transform: scale(1.2) !important;
+}
+
+/* style the controls*/
+.startTimeText,
+.endTimeText {
+  width: 3.4em;
+  display: block;
+  text-align: center;
+}
+
+.osdTitle {
+  margin-left: 0.5em;
+}
+
+.videoOsdBottom {
+  padding-top: 1em;
+  padding-bottom: max(env(safe-area-inset-bottom), 1em);
+}
+
+.skinHeader-withBackground.osdHeader {
+  height: 5em;
+}
+
+/* Fix the UI shifting around */
+.nowPlayingBarCurrentTime {
+  width: 6em;
+}
+
+.osdTextContainer {
+  margin: 0 !important;
+  margin-top: 0.2em !important;
+  padding-left: 0.5em !important;
+  padding-right: 0.5em !important;
+}
+
+/* Progressbar */
+.taskProgressInner,
+.sliderMarker.watched {
+  background: rgba(var(--accent),0.75) !important;
+}
+
+/*
+| Player
+-------------------------------*/
+
+.nowPlayingPageImage {
+  border: none;
+}
+
+.upNextDialog-countdownText {
+  color: white;
+}
+
+/* Subtitle preview */
+.subtitleappearance-preview {
+  background: linear-gradient(140deg,rgb(var(--accent)),#111) !important;
+}
+
+/* Play progress & volume */
+.mdl-slider {
+  color: rgba(var(--accent)) !important;
+} 
+
+/* Background: Accent: 100% */
+.mdl-slider-background-lower {
+  background: rgba(var(--accent)) !important;
+} 
+
+/* Background & Thumb: Accent: 100% */
+.iconOsdProgressInner,
+.mdl-slider::-webkit-slider-thumb {
+  background: rgba(var(--accent));
+  color: rgba(var(--accent));
+}
+
+/* Skip-Button: Hover & Focus */
+.skip-button:focus,
+.skip-button:hover {
+  background: rgba(var(--accent), 0.8) !important
+}

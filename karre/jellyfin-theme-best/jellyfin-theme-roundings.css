@@ -1,0 +1,93 @@
+/*  
+  ==================================
+  Roundings
+  ==================================
+
+  finny - HTPC Theme for Jellyin
+  Modified Ultrachromic/rounding_circlehover.css
+
+*/
+
+/*
+| Full Radius 
+-------------------------------*/
+
+/* Buttons */
+.headerButton,
+.headerButton:hover,
+.paper-icon-button-light,
+.paper-icon-button-light:hover {
+  border-radius: var(--rounding);
+}
+
+/* Progress */
+progress,
+progress::-webkit-progress-bar,
+progress::-moz-progress-bar,
+progress::-webkit-progress-value,
+.taskProgressOuter,
+.taskProgressInner {
+  border-radius: var(--rounding);
+}
+
+/* Cards & Items */
+.chapterThumb,
+.chapterThumbContainer,
+.chapterThumbTextContainer,
+.itemDetailImage,
+.itemSelectionPanel,
+.nowPlayingPageImage,
+.primaryImageWrapper > img,
+.upNextContainer,
+.upNextDialog-poster-img {
+  border-radius: var(--rounding) !important;
+}
+
+.osdPoster img {
+  border-radius: var(--rounding); 
+  border: none;
+}
+
+/*
+| Full Radius - Sides
+---------------------------------------*/
+
+/* left */
+div[data-role="controlgroup"] a[data-role="button"]:first-child {
+	border-bottom-left-radius: var(--rounding);
+	border-top-left-radius: var(--rounding);
+}
+
+/* right */
+div[data-role="controlgroup"] a[data-role="button"]:last-child {
+	border-bottom-right-radius: var(--rounding);
+	border-top-right-radius: var(--rounding);
+}
+
+
+/*
+| Small Radius
+-----------------------------*/
+
+/* buttons & system */
+.button-submit,
+.checkboxOutline,
+.detailTable,
+.dialog,
+.formDialogHeader,
+.formDialogFooter,
+.fab,
+.listItem-border,
+.listItemButton,
+.listItemIcon,
+.listItemImage,
+.listItemImageButton,
+.listItem:hover,
+.mediaSourceIndicator,
+.multiSelectCheckboxOutline,
+.paperList,
+.playedIndicator,
+.raised,
+.toast {
+  border-radius: var(--rounding-input) !important;
+}

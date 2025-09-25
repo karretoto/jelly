@@ -1,0 +1,119 @@
+/*  
+  ==================================
+  Accent Colors
+  ==================================
+
+  finny - HTPC Theme for Jellyin
+  Based on: Ultrachromic/login/login_frame.css
+
+*/
+
+
+/*
+| Play Progress in Cards
+-----------------------------*/
+
+/* Bar: Accent */
+progress::-moz-progress-bar,
+progress::-webkit-progress-value {
+  background: rgba(var(--accent),0.75) !important;
+}
+
+/* Background */
+progress,
+.taskProgressOuter {
+  background: var(--dark40) !important;
+  border: 1px solid var(--light20) !important;
+}
+
+progress::-webkit-progress-bar {
+  border: 0px solid var(--light20) !important;
+}
+
+/* Accent: 75% */
+.playbackProgress > div {
+  background: rgba(var(--accent),0.75) !important;
+}
+
+.backgroundProgress > div {
+  background: #0000 !important;
+}
+
+
+/*
+| Buttons
+-----------------------------*/
+
+/* Accent Color: 100% */
+.buttonActive,
+.css-17c09up.Mui-selected,
+.inputLabelFocused,
+.navMenuOption-selected,
+.playstatebutton-icon-played,
+.ratingbutton-icon-withrating,
+.upNextDialog-countdownText,
+.selectLabelFocused,
+.textareaLabelFocused {
+  color: rgba(var(--accent)) !important;
+}
+
+/* Background: Black & White */
+.navMenuOption-selected,
+.selectionCommandsPanel {
+  background: var(--dark40) !important;
+}
+
+/* user settings button */
+div[data-role="controlgroup"] a.ui-btn-active {
+  background: var(--dark40) !important;
+  color: white !important;
+}
+
+
+/*
+| Button Animations
+-----------------------------*/
+
+/* Transitions */
+.raised.homeLibraryButton {
+  transition: filter 0.2s
+}
+.listItem:hover {
+  transition: 0.2s;
+  background: none !important;
+}
+
+a[data-role="button"],
+.fab,
+.raised {
+	transition: all 0.2s !important;
+  background: var(--dark40) !important;
+}
+
+.raised.homeLibraryButton:hover {
+  color: rgb(var(--accent)) !important;
+  background: var(--light60) !important;
+  transition: filter 0.2s
+}
+
+/* Background on Hover & Focus: Accent 50% */
+a[data-role="button"]:hover,
+.actionSheetMenuItem:hover,
+.alphaPickerButton-tv:focus,
+.alphaPickerButton-tv:hover,
+.css-17c09up:hover,
+.fab:hover,
+.navMenuOption:hover,
+.raised:hover, 
+.raised:focus {
+  background: rgba(var(--accent),0.8) !important;
+}
+
+/* Profile List Entries: Focus & Hover */
+.listItem-button:focus,
+.listItem-button:hover,
+.listItem-border.emby-button:focus,
+.listItem-border.emby-button:hover {
+  background: rgba(var(--accent),0.8) !important;
+}
+
