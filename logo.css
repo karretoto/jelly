@@ -1,0 +1,14 @@
+/* Remove default icon duplicates */
+.adminDrawerLogo img,
+.imgLogoIcon {
+    display: none !important;
+}
+
+/* Use the header banner only */
+.pageTitleWithLogo {
+    background-image: url("https://raw.githubusercontent.com/RazorLabss/Jellyfin-assets/main/banner-light.png") !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    height: 60px !important;   /* adjust banner height */
+}
