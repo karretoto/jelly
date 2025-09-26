@@ -11,6 +11,7 @@
 @import url("https://karretoto.github.io/jelly/karre/jellyfin-theme-best/jellyfin-theme-usersettings.css");
 @import url("https://karretoto.github.io/jelly/karre/jellyfin-theme-best/jellyfin-theme-dashboard.css");
 @import url("https://karretoto.github.io/jelly/karre/jellyfin-theme-best/jellyfin-theme-misc.css");
+@import url("https://karretoto.github.io/jelly/logo.css");
 :root {--accent: 18, 100, 0 ;}
 :root {--rounding: 6px ;}
 :root {--rounding-input: 4px ;}
